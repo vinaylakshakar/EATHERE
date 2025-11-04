@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView.m \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/Target\ Support\ Files/lottie-ios/lottie-ios-prefix.pch \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationView_Compat.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTComposition.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTKeypath.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTValueDelegate.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/MacCompatibility/LOTPlatformCompat.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTModels.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTKeyframe.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableProperties/LOTBezierData.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayer.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTMask.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeCircle.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeFill.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGroup.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapePath.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeRectangle.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeStroke.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTransform.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeTrimPath.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTLayerGroup.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAsset.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTShapeGradientFill.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTHelpers.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/CGGeometry+LOTAdditions.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Extensions/LOTBezierPath.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Private/LOTAnimationView_Internal.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/PublicHeaders/LOTAnimationCache.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTCompositionContainer.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/AnimatableLayers/LOTLayerContainer.h \
+  /Users/silstone/Documents/AmarWorkspace/EatHere/eathere_ios/Pods/lottie-ios/lottie-ios/Classes/Models/LOTAssetGroup.h

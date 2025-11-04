@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Segoe UI.ttf">
+            <string>SegoeUI</string>
+        </array>
+        <array key="segoeuil.ttf">
+            <string>SegoeUI-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="CzJ-M2-blJ" customClass="DashBoardCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CzJ-M2-blJ" id="hWA-fV-eLU">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="413.66666666666669"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cwt-GE-rTv">
+                        <rect key="frame" x="11" y="11" width="392" height="392"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBt-x6-TA4">
+                        <rect key="frame" x="33" y="293" width="346" height="97"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_star_gray" translatesAutoresizingMaskIntoConstraints="NO" id="IZk-SM-1io">
+                        <rect key="frame" x="47" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_star_gray" translatesAutoresizingMaskIntoConstraints="NO" id="Rnq-b9-XD0">
+                        <rect key="frame" x="71" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_star_gray" translatesAutoresizingMaskIntoConstraints="NO" id="tSL-ma-lnQ">
+                        <rect key="frame" x="95" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_star_gray" translatesAutoresizingMaskIntoConstraints="NO" id="R8k-sk-9Yf">
+                        <rect key="frame" x="119" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small_star_gray" translatesAutoresizingMaskIntoConstraints="NO" id="TiT-Vw-RbW">
+                        <rect key="frame" x="142" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Layer 29" translatesAutoresizingMaskIntoConstraints="NO" id="HoB-bP-cQS">
+                        <rect key="frame" x="276" y="359" width="20" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elmira Rosticceria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVa-MH-NF8" customClass="DashBoardCellTitle">
+                        <rect key="frame" x="46" y="306" width="323" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10:00 AM - 11:00 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-BB-qFO">
+                        <rect key="frame" x="296" y="362" width="73" height="13"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" red="0.8528009057" green="0.0560996905" blue="0.13272309299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lorem ipsum address here, street, city 102030" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jA1-Q6-nFg" customClass="SubTitleCellFont">
+                        <rect key="frame" x="46" y="321" width="323" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="SegoeUI-Light" family="Segoe UI" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="vLn-U9-5ob"/>
+            <connections>
+                <outlet property="fifthRatingImage" destination="TiT-Vw-RbW" id="KhM-Ka-gyD"/>
+                <outlet property="firstRatingImage" destination="IZk-SM-1io" id="tdR-u1-Xuu"/>
+                <outlet property="fourthRatingImage" destination="R8k-sk-9Yf" id="QXr-e1-M55"/>
+                <outlet property="restaurantAddress" destination="jA1-Q6-nFg" id="cEc-E5-HPR"/>
+                <outlet property="restaurantImage" destination="cwt-GE-rTv" id="J3J-OM-s9a"/>
+                <outlet property="restaurantName" destination="IVa-MH-NF8" id="Lld-UJ-QbH"/>
+                <outlet property="secondRatingImage" destination="Rnq-b9-XD0" id="lra-Cc-lsa"/>
+                <outlet property="thirdRatingImage" destination="tSL-ma-lnQ" id="fCP-M4-iGI"/>
+                <outlet property="timeLable" destination="Fff-BB-qFO" id="D2K-Zl-eFE"/>
+                <outlet property="whiteImage" destination="bBt-x6-TA4" id="nZ6-ut-F0A"/>
+            </connections>
+            <point key="canvasLocation" x="176" y="-23"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Layer 29" width="14" height="14"/>
+        <image name="small_star_gray" width="13" height="12"/>
+    </resources>
+</document>

@@ -1,0 +1,132 @@
+//
+//  EatHere.pch
+//  Eat Here
+//
+//  Created by Silstone on 25/06/18.
+//  Copyright © 2018 Silstone. All rights reserved.
+//
+
+#ifndef EatHere_pch
+#define EatHere_pch
+
+#define IS_OS_13_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 13.0)
+#define IS_OS_8_OR_LATER    ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_iPHONE_5 (IS_IPHONE && ([[UIScreen mainScreen] bounds].size.height == 568.0) && ((IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale == [UIScreen mainScreen].scale) || !IS_OS_8_OR_LATER))
+#define IS_STANDARD_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0  && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale == [UIScreen mainScreen].scale)
+#define IS_ZOOMED_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0 && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale > [UIScreen mainScreen].scale)
+#define IS_STANDARD_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0)
+#define IS_ZOOMED_IPHONE_6_PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0 && IS_OS_8_OR_LATER && [UIScreen mainScreen].nativeScale < [UIScreen mainScreen].scale)
+#define IS_STANDARD_IPHONE_X (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0)
+#define IS_STANDARD_IPHONE_XR (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 896.0)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "EnterOTPViewController.h"
+#import "CreateAccountViewController.h"
+#import "Utility.h"
+#import "PCCPViewController.h"
+#import "LoginProcess.h"
+#import "NetworkEngine.h"
+#import "TabBarViewController.h"
+#import "NewsFeedCell.h"
+#import "DashBoardCell.h"
+#import "CategoryCell.h"
+#import "RestaurantDetailViewController.h"
+#import "AdvancedSearchViewController.h"
+#import "TokenProcess.h"
+#import "CreatePostViewController.h"
+#import "EnableLocationViewController.h"
+#import "EnterZipViewController.h"
+#import "PagesViewController.h"
+#import "RootPageViewController.h"
+#import "PagesViewController.h"
+#import "SMWheelControl.h"
+#import "SelectCategoryCell.h"
+#import "FoodFinderViewController.h"
+#import "EditProfileViewController.h"
+#import "FeedBackViewController.h"
+#import "AppDelegate.h"
+#import "RadomizeCellFirst.h"
+#import "EnterMobileViewController.h"
+
+#define kAppDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#define kBaseURL @"http://54.208.242.82/api/"
+#define YelpID @"Bearer J1nM9P4CYI6DZyeuTe_YKTigJBf0kA8gBRTkrl9rXXGwGZcCRKq6s8tN0HcuZTs2A49Gx57PdlMobCuFk0VjhtobFtTa-YNUhlfoo7Q_xmwHTkfT78xJ2L23DfU5W3Yx"
+
+#define USERDEFAULTS [NSUserDefaults standardUserDefaults]
+#define deviceId @"deviceId"
+#define recentSearch @"recentSearch"
+#define USERDEFAULTS [NSUserDefaults standardUserDefaults]
+#define MobileNo @"MobileNo"
+#define AddressLatitude @"latitude"
+#define AddressLongitude @"longitude"
+
+#define CurrentAddressLatitude @"Currentlatitude"
+#define CurrentAddressLongitude @"Currentlongitude"
+
+#define ZipCode @"ZipCode"
+#define kMerchantID @"Sil075"
+#define kAccessToken @"kAccessToken"
+#define kuserID @"userID"
+#define kuserLoggedin @"userlogin"
+#define kuserDashboard @"userDashboard"
+#define AppKilled @"AppKilled"
+
+
+
+#define AllCategories @"BBQ,Cafe,Fast Food,Taste the World,Vegan,Around Me,Healthy Choice,Bar,You gotta Eat here!,Desserts"
+
+
+#define BBQ @"smokehouse,bbq,burgers,cheesesteaks,chickenshop,chicken_wings,gamemeat,kebab,steak,tex-mex"
+
+
+#define FASTFOOD @"cafeteria,canteen,delis,diners,hotdogs,fishnchips,food_court,foodstands,noodles,pizza,sandwiches,southern,wraps"
+
+#define HEALTHY @"juicebars,poke,breakfast_brunch,gluten_free,salad,seafood,soup,vegetarian,acaibowls"
+
+#define AROOUNDME @"food"
+
+#define TERMS @"restaurants"
+
+#define BARS @"bars,breweries,beer_and_wine,cideries,winetastingroom,beergarden,gastropubs,comfortfood"
+
+#define EAT_WORLD @"bento,afghani,african,senegalese,andalusian,arabian,arabpizza,argentine,armenian,asianfusion,asturian,australian,baguettes,bangladeshi,basque,bavarian,beisl,belgian,blacksea,brasseries,brazilian,british,bulgarian,burmese,cajun,cambodian,newcanadian,caribbean,catalan,chilean,chinese,corsican,cuban,currysausage,cypriot,czech,czechslovakian,danish,dumplings,eastern_european,ethiopian,filipino,fondue,french,georgian,german,greek,guamanian,halal,hawaiian,himalayan,honduran,hotpot,hungarian,iberian,indpak,indonesian,irish,italian,japanese,korean,kosher,laotian,latin,malaysian,mediterranean,mexican,mideastern,modern_european,mongolian,moroccan,newmexican,nicaraguan,pakistani,panasian,persian,peruvian,polish,polynesian,portuguese,poutineries,russian,scandinavian,scottish,singaporean,slovakian,spanish,srilankan,sushi,syrian,taiwanese,tapas,tapasmallplates,tex-mex,thai,turkish,ukrainian,uzbek,vietnamese"
+
+#define CAFE @"bubbletea,coffee,kombucha,milkshakebars,tea,cafes,bistros,hkcafe,supperclubs"
+
+#define Deserts @"churros,chimneycakes,cupcakes,desserts,donuts,gelato,icecream,jpsweets,cakeshop,shavedice,creperies,waffles"
+
+#define Vegan @"salad,vegan,vegetarian"
+
+#define HIGH_RAT @"restaurants"
+
+//category title_caps
+
+#define BBQ_title @"Smokehouse,Barbeque,Burgers,Cheesesteaks,Chicken Shop,Chicken Wings,Game Meat,Kebab,Steakhouses,Tex-Mex"
+
+
+#define FASTFOOD_title @"Cafeteria,Canteen,Delis,Diners,Hotdogs,Fish & Chips,Food Court,Food Stands,Noodles,Pizza,Sandwiches,Southern,Wraps"
+
+#define HEALTHY_title @"Juice Bars,Poke,Breakfast & Brunch,Gluten-Free,Salad,Seafood,Soup,Vegetarian,Acai Bowls"
+
+#define BARS_title @"Bars,Breweries,Beer Wine & Spirits,Cideries,Wine Tasting Room,Beer Gardens,Gastropubs,Comfort Food"
+
+#define EAT_WORLD_title @"Bento,Afghani,African,Senegalese,Andalusian,Arabian,Arab Pizza,Argentine,Armenian,Asian Fusion,Asturian,Australian,Baguettes,Bangladeshi,Basque,Bavarian,Beisl,Belgian,Black Sea,Brasseries,Brazilian,British,Bulgarian,Burmese,Cajun/Creole,Cambodian,Canadian (New),Caribbean,Catalan,Chilean,Chinese,Corsican,Cuban,Curry Sausage,Cypriot,Czech,Czech/Slovakian,Danish,Dumplings,Eastern European,Ethiopian,Filipino,Fondue,French,Georgian,German,Greek,Guamanian,Halal,Hawaiian,Himalayan,Honduran,Hot Pot,Hungarian,Iberian,Indian,Indonesian,Irish,Italian,Japanese,Korean,Kosher,Laotian,Latin American,Malaysian,Mediterranean,Mexican,Middle Eastern,Modern European,Mongolian,Moroccan,New Mexican,Nicaraguan,Pakistani,Pan Asian,Persian/Iranian,Peruvian,Polish,Polynesian,Portuguese,Poutineries,Russian,Scandinavian,Scottish,Singaporean,Slovakian,Spanish,Sri Lankan,Sushi Bars,Syrian,Taiwanese,Tapas Bars,Tapas/Small Plates,Tex-Mex,Thai,Turkish,Ukrainian,Uzbek,Vietnamese"
+
+#define CAFE_title @"Bubble Tea,Coffee & Tea,Kombucha,Milkshake Bars,Tea Rooms,Cafes,Bistros,Hong Kong Style,Supper Clubs"
+
+#define Deserts_title @"Churros,Chimney Cakes,Cupcakes,Desserts,Donuts,Gelato,Ice Cream,Japanese Sweets,Patisserie,Shaved Ice,Creperies,Waffles"
+
+#define Vegan_title @"Salad,Vegan,Vegetarian"
+
+
+
+
+
+
+#pragma mark - Liberary
+
+#import "UIImageView+WebCache.h"
+
+#endif /* EatHere_pch */
